@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.94dea009.css",
+    "main.js": "/static/js/main.a7b90e0f.js",
+    "static/js/453.5238f3c5.chunk.js": "/static/js/453.5238f3c5.chunk.js",
+    "static/media/blackhole.jpg": "/static/media/blackhole.f73bcafe424ba1a79b86.jpg",
+    "static/media/safespace.png": "/static/media/safespace.79077149f9b3fd5c3cb8.png",
+    "index.html": "/index.html",
+    "main.94dea009.css.map": "/static/css/main.94dea009.css.map",
+    "main.a7b90e0f.js.map": "/static/js/main.a7b90e0f.js.map",
+    "453.5238f3c5.chunk.js.map": "/static/js/453.5238f3c5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.94dea009.css",
+    "static/js/main.a7b90e0f.js"
+  ]
+}
