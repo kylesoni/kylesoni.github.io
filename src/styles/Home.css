@@ -21,7 +21,8 @@
   }
 
   .about img {
-    width: 25%;
+    width: 30%;
+    min-width: 300px;
     border: 5px solid #000000;
     border-radius: 50%;
   }
