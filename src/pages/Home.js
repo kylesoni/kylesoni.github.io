@@ -28,24 +28,17 @@ function Home() {
         </div>
         <div className="skills">
 
-            <h1> Skills </h1>
             <ol className='list'>
                 <li className='item'>
-                    <h2> Technical</h2>
+                    <h2> Technical Skills</h2>
                     <span>
-                        Python, R, SQL, C, C++, C#, Unity, Jupyter Notebooks, MS Office, Git
+                        Data Mining, Data Visualization, SDLC (Software Development Life Cycle), Northwestern QUEST (Computing Cluster), Unity, Jupyter Notebooks, MS Office, Git
                     </span>
                 </li>
                 <li className='item'>
-                    <h2> Soft</h2>
+                    <h2> Languages</h2>
                     <span> 
-                        Teamwork, Communication, Leadership, Time Management, Adaptability
-                    </span>
-                </li>
-                <li className='item'>
-                    <h2> Additional</h2>
-                    <span> 
-                        SDLC (Software Development Life Cycle), Northwestern QUEST (Computing Cluster)
+                        Python, R, SQL, C, C++, C#
                     </span>
                 </li>
             </ol>

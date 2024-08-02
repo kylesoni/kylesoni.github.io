@@ -27,7 +27,7 @@ function Experience() {
                 <h3 className='vertical-timeline-element-title'> 
                     Northwestern University, Evanston, IL 
                 </h3>
-                <p> Bachelor of Arts</p>
+                <p> Bachelor of Arts, Triple Major in Computer Science, Physics, and Integrated Science</p>
             </VerticalTimelineElement>
         </VerticalTimeline>
     </div>
