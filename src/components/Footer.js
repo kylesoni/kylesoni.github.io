@@ -2,15 +2,25 @@ import React from 'react'
 import TwitterIcon from "@material-ui/icons/Twitter"
 import LinkedInIcon from "@material-ui/icons/LinkedIn"
 import GitHubIcon from "@material-ui/icons/GitHub"
+import EmailIcon from "@material-ui/icons/Email"
 import "../styles/Footer.css"
 
 function Footer() {
   return (
     <div className="footer">
         <div className="socialMedia"> 
-            <LinkedInIcon />
-            <GitHubIcon />
+          <a href='https://www.linkedin.com/in/kyle-soni-581636170/'>
+              <LinkedInIcon />
+          </a>
+          <a href='mailto:kylesoni2142@gmail.com'>
+              <EmailIcon />
+          </a>
+          <a href='https://github.com/kylesoni'>
+              <GitHubIcon />
+          </a>
+          <a href="https://x.com/soni_kyle">
             <TwitterIcon />
+          </a>
         </div>
         <p> &copy; 2024 kylesoni.github.io</p>
     </div>

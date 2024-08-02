@@ -1,6 +1,6 @@
 .project {
     width: 100%;
-    height: calc(100vh - 100px);
+    height: calc(200vh - 100px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,10 +10,13 @@
   .project h1 {
     margin-top: 50px;
     color: #3e497a;
-    font-size: 35px;
+    font-size: 60px;
+    text-align: center;
   }
   .project img {
-    width: 700px;
+    width: 75%;
+    max-width: 650px;
+    border: 3px solid #000000;
     border-radius: 10px;
   }
   
@@ -24,5 +27,12 @@
   
   .project svg {
     font-size: 60px;
+    margin-top: 50px;
     color: #3e497a;
+  }
+
+  .projectAbout {
+    font-size: 40px;
+    margin-top: 10px;
+    color: #000000;
   }

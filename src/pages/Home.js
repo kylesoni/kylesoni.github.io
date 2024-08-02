@@ -33,19 +33,19 @@ function Home() {
                 <li className='item'>
                     <h2> Technical</h2>
                     <span>
-                        Python, C, C++, C#
+                        Python, R, SQL, C, C++, C#, Unity, Jupyter Notebooks, MS Office, Git
                     </span>
                 </li>
                 <li className='item'>
-                    <h2> Additional Skills</h2>
+                    <h2> Soft</h2>
                     <span> 
-                        Unity, SQL
+                        Teamwork, Communication, Leadership, Time Management, Adaptability
                     </span>
                 </li>
                 <li className='item'>
-                    <h2> Languages</h2>
+                    <h2> Additional</h2>
                     <span> 
-                        Stuff
+                        SDLC (Software Development Life Cycle), Northwestern QUEST (Computing Cluster)
                     </span>
                 </li>
             </ol>
