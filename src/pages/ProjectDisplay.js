@@ -9,16 +9,19 @@ function ProjectDisplay() {
   const project = ProjectList[id]
   return (
     <div className='project'>
-        <h1> {project.name}</h1>
+        <h1 className='name'> {project.name}</h1>
         <img src={project.image} alt=""/>
+        <h1 className='projectHeader'> About:</h1>
         <div className='projectAbout'>
-          {project.about}
+        {project.about}
         </div>
-        <p>
+        {project.special}
+        <p className='skills'>
           <b>Skills:</b> {project.skills}
         </p>
-        {project.special}
-        <GitHubIcon />
+        <a href = {project.github}>
+          <GitHubIcon />
+        </a>
     </div>
   )
 }

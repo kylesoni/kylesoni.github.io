@@ -13,7 +13,7 @@ function Home() {
             <h2> Kyle Soni</h2>
             <div className="prompt"> 
                 <p> 
-                    A software and data engineer. 
+                    A computer science, physics, and integrated science graduate interested in software development and data science.
                 </p>
                 <a href='https://www.linkedin.com/in/kyle-soni-581636170/'>
                     <LinkedInIcon />
