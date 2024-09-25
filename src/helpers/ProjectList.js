@@ -12,11 +12,16 @@ export const ProjectList = [
         skills: "C#, Unity",
         about: <div>
                     <p>
-                        As a member of a 4-person team, I designed and built a 2D game in the Unity engine, gaining experience with C# and the Unity API. 
+                        Safe Space is a 2D sandbox game where you collect resources to build a ship and escape a perilous planet.  As a 4-person team, we were
+                        tasked with end-to-end delivery of a computer game, building it from the ground up using Unity and C#.
                     </p>
                     <p>
-                        I was specifically responsible for level design, item design, character movement, two basic enemy-types, finding online art assets, and 
-                        finally implementing those assets (including the animations and parallax background). I also helped fix bugs for the inventory and block system.
+                        I was specifically responsible for level design, item design, character movement, two basic enemy-types, online art assets, and 
+                        and the implementation of those assets (including the animations and parallax background). I also helped fix bugs for the inventory and block system.
+                    </p>
+                    <p>
+                        This work involved the use Unity's animation and tiling tools, but features like movement, enemy AI, and items relied heavilty on C#
+                        and principles from object-oriented programming.
                     </p>
                     <h1 className='projectHeader'> Instructions:</h1>
                     <p>
@@ -29,10 +34,20 @@ export const ProjectList = [
     {
         name: "Measuring the M-σ relation",
         image: BlackHole,
-        skills: "Python, SQL, Jupyter Notebooks, Scipy, Matplotlib",
+        skills: "Python, SQL, Jupyter, Scipy, Matplotlib",
         about: <div>
                     <p>
-                        In my graduate-level statistical methods course, I analyzed the data 
+                        The M-σ relation is a well-known correlation between the stellar velocity dispersion (σ) of a galaxy's bulge and the mass (M) of the supermassive black hole
+                        at its center. To measure this relationship, I used mass measurements of black holes and the corresponding velocity dispersions compiled by a recent paper, 
+                        checking the dispersion values with the HyperLEDA database for inconsistencies with modern results.
+                    </p>
+                    <p>
+                        I used a Bayesian approach to fit a linear regression model, starting with a mathematical formulation of the liklihood. Because the data had uncertainties on both
+                        axes, I projected the data to be orthogonal to a best fit line, accounting equally for both uncertainties. To account for outliers, I introduced 
+                        a Gaussian distribution and combined it with the linear regression to create a mixture model.
+                    </p>
+                    <p>
+                        I then performed Markov Chain Monte Carlo (MCMC) via the Metropolis-Hastings algorithm to fit the parameters and achieve an estimation for the M-σ relation.
                     </p>
                     <h1 className='projectHeader'> Instructions:</h1>
                     <p>
@@ -45,8 +60,20 @@ export const ProjectList = [
     {
         name: "Personal Website",
         image: Portrait,
-        skills: "React.js, CSS",
-        about: "Testing",
+        skills: "React, Javascript, CSS",
+        about: <div>
+                    <p>
+                        This website was created using the React library for javascript. I coded each component using the route package, configured the visuals using CSS, and 
+                        deployed the app using github pages.
+                    </p>
+                    <p>
+                        
+                    </p>
+                    <h1 className='projectHeader'> Instructions:</h1>
+                    <p>
+                        Click the github link below to view the code.
+                    </p>
+                </div>,
         special: null,
         github: "https://github.com/kylesoni/kylesoni.github.io",
     },
@@ -56,7 +83,7 @@ export const ProjectList = [
         skills: "Python, SQL, Jupyter Notebooks, Scipy, Matplotlib",
         about: "Testing",
         special: null,
-        github: "",
+        github: "https://github.com/kylesoni/calculating-distance-to-the-lmc",
     },
     {
         name: "Award Ceremony Language Analysis",
@@ -64,7 +91,7 @@ export const ProjectList = [
         skills: "Python, NLTK",
         about: "Testing",
         special: null,
-        github: "https://github.com/kylesoni/cs337-project1",
+        github: "https://github.com/kylesoni/award-ceremony-language-analysis",
     },
     {
         name: "Interactive Recipe Walkthrough",
@@ -72,6 +99,6 @@ export const ProjectList = [
         skills: "Python, Spacy",
         about: "Testing",
         special: null,
-        github: "https://github.com/kylesoni/cs337-project2",
+        github: "https://github.com/kylesoni/recipe-parser-and-interactive-walkthrough",
     },
 ]

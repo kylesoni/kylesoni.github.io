@@ -1,5 +1,5 @@
 import React from 'react'
-import TwitterIcon from "@material-ui/icons/Twitter"
+import { FaXTwitter } from "react-icons/fa6"
 import LinkedInIcon from "@material-ui/icons/LinkedIn"
 import GitHubIcon from "@material-ui/icons/GitHub"
 import EmailIcon from "@material-ui/icons/Email"
@@ -19,7 +19,7 @@ function Footer() {
               <GitHubIcon />
           </a>
           <a href="https://x.com/soni_kyle">
-            <TwitterIcon />
+            <FaXTwitter />
           </a>
         </div>
         <p> &copy; 2024 kylesoni.github.io</p>
