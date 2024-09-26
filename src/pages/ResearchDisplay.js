@@ -9,16 +9,19 @@ function ResearchDisplay() {
     const project = ResearchList[id]
     return (
         <div className='research'>
-            <h1> {project.name}</h1>
+            <h1 className='name'> {project.name}</h1>
             <img src={project.image} alt=""/>
-            <div className='researchAbout'>
+            <h1 className='projectHeader'> About:</h1>
+            <div className='projectAbout'>
             {project.about}
             </div>
-            <p>
+            {project.special}
+            <p className='skills'>
             <b>Skills:</b> {project.skills}
             </p>
-            {project.special}
+            <a href = {project.github}>
             <GitHubIcon />
+            </a>
         </div>
     )
 }

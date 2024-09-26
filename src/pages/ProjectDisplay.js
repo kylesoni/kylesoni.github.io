@@ -11,10 +11,7 @@ function ProjectDisplay() {
     <div className='project'>
         <h1 className='name'> {project.name}</h1>
         <img src={project.image} alt=""/>
-        <h1 className='projectHeader'> About:</h1>
-        <div className='projectAbout'>
         {project.about}
-        </div>
         {project.special}
         <p className='skills'>
           <b>Skills:</b> {project.skills}

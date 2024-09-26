@@ -40,14 +40,6 @@ function Home() {
                     <p>
                         In my post-graduation, I worked to finish my network modeling project with the lab, culminating with a paper.
                     </p>
-                    <div className='row'>
-                        <div className='column'>
-                            <img src={Mo1} alt="" />
-                        </div>
-                        <div className='column'>
-                            <img src={Mo2} alt=""/>
-                        </div>
-                    </div>
                 </li>
                 <li className='item'>
                     <h2> Languages</h2>
@@ -60,6 +52,17 @@ function Home() {
                     <span>
                         Python Packages (Numpy, Matplotlib, Pandas), Unix, Jupyter, Git, SDLC
                     </span>
+                </li>
+                <li className='item'>
+                    <h2> Personal Interests</h2>
+                    <div className='row'>
+                        <div className='column'>
+                            <img src={Mo1} alt="" />
+                        </div>
+                        <div className='column'>
+                            <img src={Mo2} alt=""/>
+                        </div>
+                    </div>
                 </li>
             </ol>
         </div>

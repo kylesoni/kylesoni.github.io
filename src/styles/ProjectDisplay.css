@@ -1,19 +1,16 @@
 .project {
-    width: 50%;
-    height: 110em;
+    max-width: 80em;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin: 0% auto;
   }
   
   .project .name {
-    margin-top: 3em;
-    margin-bottom: 1em;
     color: #3e2469;
-    font-size: 60px;
+    font-size: 4em;
     text-align: center;
   }
   .project img {
@@ -24,35 +21,56 @@
   }
   
   .project .skills {
-    font-size: 40px;
+    font-size: 2em;
     text-align: center;
     color: #3e2469;
   }
   
   .project svg {
     font-size: 80px;
-    margin-top: 50px;
     color: #3e2469;
   }
 
-  .projectHeader {
-    font-size: 30px;
-    margin-top: 40px;
-    margin-bottom: 0px;
-    width: 100%;
+  .projectAbout {
+    color: #000000;
+    margin: 0 5%;
+  }
+
+  .projectAbout p {
+    font-size: 1em;
+  }
+
+  .projectAbout h1 {
+    font-size: 1.3em;
     text-align: left;
   }
 
-  .projectAbout {
-    font-size: 25px;
-    color: #000000;
+  @media only screen and (max-width: 1200px) {
+    .project .name {
+      font-size: 3em;
+    }
+
+    .project {
+      max-width: 60em;
+    }
+
+    html {
+      font-size: 20px;
+    }
+
+    .projectAbout {
+      color: #000000;
+      margin: 0 5%;
+    }
+
+    .projectAbout p {
+      font-size: 1.25rem;
+    }
   }
 
   @media only screen and (max-width: 600px) {
     .project {
-      width: 70%;
-      margin-left: 15%;
-      margin-right: 15%;
+      max-width: 40em;
     }
 
     .project .name {
