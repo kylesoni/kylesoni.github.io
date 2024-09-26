@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.f8a56627.css",
-    "main.js": "/static/js/main.8f6ff303.js",
+    "main.css": "/static/css/main.1fc92c30.css",
+    "main.js": "/static/js/main.a456fe06.js",
     "static/js/453.5238f3c5.chunk.js": "/static/js/453.5238f3c5.chunk.js",
     "static/media/background.jpg": "/static/media/background.8406ccb00e9069f9d24b.jpg",
+    "static/media/mo1.jpeg": "/static/media/mo1.0ef4b1ca71018aa27027.jpeg",
     "static/media/KyleSoniPortrait.png": "/static/media/KyleSoniPortrait.5c744aa4006fffe668f1.png",
+    "static/media/mo2.jpeg": "/static/media/mo2.f40b193e3404fa881dd6.jpeg",
     "static/media/recipe.jpg": "/static/media/recipe.17fe46a0d835a627b059.jpg",
     "static/media/network.png": "/static/media/network.4f22ca863b88b7e40633.png",
     "static/media/lmc.jpg": "/static/media/lmc.acd411da32e59c5cd9da.jpg",
@@ -14,12 +16,12 @@
     "static/media/blackhole.png": "/static/media/blackhole.9738a67b0751847388df.png",
     "static/media/safespace.png": "/static/media/safespace.79077149f9b3fd5c3cb8.png",
     "index.html": "/index.html",
-    "main.f8a56627.css.map": "/static/css/main.f8a56627.css.map",
-    "main.8f6ff303.js.map": "/static/js/main.8f6ff303.js.map",
+    "main.1fc92c30.css.map": "/static/css/main.1fc92c30.css.map",
+    "main.a456fe06.js.map": "/static/js/main.a456fe06.js.map",
     "453.5238f3c5.chunk.js.map": "/static/js/453.5238f3c5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8a56627.css",
-    "static/js/main.8f6ff303.js"
+    "static/css/main.1fc92c30.css",
+    "static/js/main.a456fe06.js"
   ]
 }
