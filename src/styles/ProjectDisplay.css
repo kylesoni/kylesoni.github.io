@@ -10,14 +10,20 @@
   
   .project .name {
     color: #3e2469;
-    font-size: 4em;
+    font-size: 4rem;
     text-align: center;
   }
   .project img {
+    display: block;
     width: 75%;
     max-width: 650px;
     border: 3px solid #000000;
     border-radius: 10px;
+    margin: 0 auto;
+  }
+
+  .project .figure {
+    max-width: 550px;
   }
   
   .project .skills {
@@ -31,41 +37,18 @@
     color: #3e2469;
   }
 
-  .projectAbout {
+  .project .projectAbout {
     color: #000000;
     margin: 0 5%;
   }
 
-  .projectAbout p {
-    font-size: 1em;
+  .project .projectAbout p {
+    font-size: 1.5em;
   }
 
-  .projectAbout h1 {
-    font-size: 1.3em;
+  .project .projectAbout h1 {
+    font-size: 2em;
     text-align: left;
-  }
-
-  @media only screen and (max-width: 1200px) {
-    .project .name {
-      font-size: 3em;
-    }
-
-    .project {
-      max-width: 60em;
-    }
-
-    html {
-      font-size: 20px;
-    }
-
-    .projectAbout {
-      color: #000000;
-      margin: 0 5%;
-    }
-
-    .projectAbout p {
-      font-size: 1.25rem;
-    }
   }
 
   @media only screen and (max-width: 600px) {
@@ -77,11 +60,7 @@
       font-size: 40px;
     }
 
-    .projectHeader {
-      font-size: 30px;
-    }
-
-    .projectAbout {
+    .project .projectAbout p {
       font-size: 20px;
     }
   }

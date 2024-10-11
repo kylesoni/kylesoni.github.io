@@ -5,7 +5,6 @@ import GitHubIcon from "@material-ui/icons/GitHub"
 import "../styles/Home.css"
 import Portrait from "../assets/KyleSoniPortrait.png"
 import Mo1 from "../assets/mo1.jpeg"
-import Mo2 from "../assets/mo2.jpeg"
 
 function Home() {
   return (
@@ -33,12 +32,16 @@ function Home() {
                 <li className='item'>
                     <h2> About</h2>
                     <p>
-                        Hello! My name is Kyle Soni, and I graduated from Northwestern University in June 2024. During my time there, I completed the Integrated Science Program (ISP), a rigorous program
-                        that requires students to pursue advanced coursework, in Math, Physics, Statistics, Biology, and Chemistry. My interdisciplinary interest also drove me to join the Istvan Kovacs Lab in 
-                        Complex Systems, where I pursued projects in neurobiology and network theory.
+                        Hello! My name is Kyle Soni, and I graduated from Northwestern University in June 2024. During my time there, I majored in computer science, physics, and integrated science. 
+                        This work was part of the Integrated Science Program (ISP), a rigorous program that requires students to pursue advanced coursework in math, chemistry, physics, biology, and statistics.
                     </p>
                     <p>
-                        In my post-graduation, I worked to finish my network modeling project with the lab, culminating with a paper.
+                        I enjoyed deepening my understanding in a variety of subjects, and I learned how to apply interdisciplinary approaches to problems in biology, mathematics, and computer science through my 3 years of research experience
+                        with Professor Istvan Kovacs.
+                    </p>
+                    <p>
+                        As a post-graduate, I'm interested in software development and data science roles. My main focus as student was in research and data analysis, but I've gained experience in full stack development through advanced coursework 
+                        and personal projects.
                     </p>
                 </li>
                 <li className='item'>
@@ -55,14 +58,13 @@ function Home() {
                 </li>
                 <li className='item'>
                     <h2> Personal Interests</h2>
-                    <div className='row'>
-                        <div className='column'>
-                            <img src={Mo1} alt="" />
-                        </div>
-                        <div className='column'>
-                            <img src={Mo2} alt=""/>
-                        </div>
-                    </div>
+                    <ul>
+                        <li>PC building</li>
+                        <li>Playing drums and piano</li>
+                        <li>My cat (pictured below)</li>
+                    </ul>
+                    <img src={Mo1} alt="" />
+                    <figcaption> Mo Soni </figcaption>
                 </li>
             </ol>
         </div>

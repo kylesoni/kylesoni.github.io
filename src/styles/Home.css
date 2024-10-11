@@ -1,5 +1,6 @@
 .home {
     width: 100%;
+    height: auto;
     align-items: center;
     font-family: "Arial", sans-serif;
     color: #3e2469;
@@ -7,7 +8,6 @@
   
   .about {
     width: 100%;
-    min-height: 100vh;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -18,6 +18,7 @@
     background-position: center;
     background-size: cover;
     background-color: #3e2469;
+    padding: 100px 0;
     color: #000000;
   }
 
@@ -71,27 +72,32 @@
   }
   
   .list span {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .list p {
     font-size: 25px;
   }
 
-  .row {
-    display: flex;
-  }
-  
-  .column {
-    flex: 33.33%;
-    padding: 5px;
+  .item ul {
+    font-size: 25px;
+    padding-bottom: 70px;
   }
 
-  .column img {
-    width: 90%;
+  .list img {
+    display: block;
+    width: 70%;
+    max-width: 400px;
     border: 5px solid #000000;
-    border-radius: 50%;
-    margin: 0px;
+    border-radius: 10px;
+    margin: 0 auto;
+  }
+
+  .list figcaption {
+    padding-top: 3px;
+    text-align: center;
+    color: #000000;
+    font-size: 25px;
   }
   
   @media only screen and (max-width: 600px) {
