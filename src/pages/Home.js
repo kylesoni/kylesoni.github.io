@@ -40,7 +40,7 @@ function Home() {
                         with Professor Istvan Kovacs.
                     </p>
                     <p>
-                        As a post-graduate, I'm interested in software development and data science roles. My main focus as student was in research and data analysis, but I've gained experience in full stack development through advanced coursework 
+                        As a post-graduate, I'm interested in software development and data science roles. My main focus as a student was in research and data analysis, but I've gained experience in full stack development through advanced coursework 
                         and personal projects.
                     </p>
                 </li>

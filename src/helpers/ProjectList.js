@@ -18,7 +18,7 @@ export const ProjectList = [
                     </p>
                     <p>
                         I was specifically responsible for level design, item design, character movement, two basic enemy-types, online art assets, and 
-                        and the implementation of those assets (including the animations and parallax background). I also helped fix bugs for the inventory and block system.
+                        the implementation of those assets (including the animations and parallax background). I also helped fix bugs for the inventory and block system.
                     </p>
                     <p>
                         This work involved the use of Unity's tools and API, but features like movement, enemy AI, and items relied heavily on C#
@@ -44,7 +44,7 @@ export const ProjectList = [
                         checking the dispersion values with the HyperLEDA database for inconsistencies with modern results.
                     </p>
                     <p>
-                        I used a Bayesian approach to fit a linear regression model, starting with a mathematical formulation of the liklihood. Because the data had uncertainties on both
+                        I used a Bayesian approach to fit a linear regression model, starting with a mathematical formulation of the likelihood. Because the data had uncertainties on both
                         axes, I projected the data to be orthogonal to a best fit line, accounting equally for both uncertainties. To account for outliers, I introduced 
                         a Gaussian distribution and combined it with the linear regression to create a mixture model.
                     </p>
@@ -66,8 +66,8 @@ export const ProjectList = [
         about: <div className='projectAbout'>
                     <h1> About:</h1>
                     <p>
-                        This website was created using the React library for javascript. I coded each component using the route package, configured the visuals using CSS, and 
-                        deployed the app using github pages.
+                        This website was created using the React library for JavaScript. I coded each component using the route package, configured the visuals using CSS, and 
+                        deployed the app using GitHub Pages.
                     </p>
                     <p>
                         
@@ -112,7 +112,7 @@ export const ProjectList = [
         about: <div className='projectAbout'>
                     <h1> About:</h1>
                     <p>
-                        This project is an interactive chatbot that takes recipes from <a href='https://www.allrecipes.com/'>allrecpies.com</a> and walks the user through the process. To achieve this, we parsed the important information from
+                        This project is an interactive chatbot that takes recipes from <a href='https://www.allrecipes.com/'>allrecipes.com</a> and walks the user through the process. To achieve this, we parsed the key information from
                         each recipe using a combination of regular expressions and the <a href='https://spacy.io/'>spacy</a> library for syntactic parsing. 
                     </p>
                     <p>
@@ -137,7 +137,7 @@ export const ProjectList = [
                         analyzes the tweets using regular expressions, and outputs the winners, nominees, presenters, and hosts of the award show.
                     </p>
                     <p>
-                        The project was done fully in python using tools from NLTK, and it taught me the fundamentals of natural language processing.
+                        The project was done fully in Python using tools from NLTK, and it taught me the fundamentals of natural language processing.
                     </p>
                     <h1 className='projectHeader'> Instructions:</h1>
                     <p>
