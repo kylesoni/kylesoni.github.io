@@ -3,6 +3,9 @@ import Genes from '../assets/genetics.jpg'
 import BAfig1 from '../assets/figures/updated_deg_dist.png'
 import BAfig2 from '../assets/figures/updated_max_degree_twos.png'
 import TFfig1 from '../assets/figures/umap.png'
+import Poster from '../assets/figures/poster.png'
+import PosterPDF from '../assets/figures/poster.pdf'
+import NetSci from '../assets/figures/netsci.pdf'
 
 export const ResearchList = [
     {
@@ -53,6 +56,11 @@ export const ResearchList = [
                         I'm currently working part time to finish the paper for this project, but we are very close to submission. I cannot share the code until the work is published, but I will update
                         this page when appropriate. 
                     </p>
+                    <h1> Presentations:</h1>
+                    <p> 
+                        I presented the poster shown below at <a href='https://ddays2024.ucdavis.edu/'> Dynamics Days 2024</a>, and I presented this <a href={NetSci}> lightning talk</a> at <a href='https://netsci2024.com/en'>NetSci2024</a>.
+                    </p>
+                    <a href={PosterPDF}> <img src={Poster} alt="" className='figure'/> </a>
                 </div>,
         special: null,
         github: "https://github.com/kylesoni",
