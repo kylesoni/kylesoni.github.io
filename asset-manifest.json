@@ -1,11 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.10030f6f.css",
-    "main.js": "/static/js/main.dab3cdf7.js",
+    "main.js": "/static/js/main.5f631735.js",
     "static/js/453.5238f3c5.chunk.js": "/static/js/453.5238f3c5.chunk.js",
     "static/media/background.jpg": "/static/media/background.8406ccb00e9069f9d24b.jpg",
     "static/media/mo1.jpeg": "/static/media/mo1.0ef4b1ca71018aa27027.jpeg",
     "static/media/KyleSoniPortrait.png": "/static/media/KyleSoniPortrait.5c744aa4006fffe668f1.png",
+    "static/media/poster.png": "/static/media/poster.455c9e540055f389f64e.png",
+    "static/media/poster.pdf": "/static/media/poster.478307ee20223768f468.pdf",
+    "static/media/netsci.pdf": "/static/media/netsci.cc5ee31a9b2ac031231e.pdf",
     "static/media/recipe.jpg": "/static/media/recipe.17fe46a0d835a627b059.jpg",
     "static/media/network.png": "/static/media/network.4f22ca863b88b7e40633.png",
     "static/media/lmc.jpg": "/static/media/lmc.acd411da32e59c5cd9da.jpg",
@@ -19,11 +22,11 @@
     "static/media/safespace.png": "/static/media/safespace.79077149f9b3fd5c3cb8.png",
     "index.html": "/index.html",
     "main.10030f6f.css.map": "/static/css/main.10030f6f.css.map",
-    "main.dab3cdf7.js.map": "/static/js/main.dab3cdf7.js.map",
+    "main.5f631735.js.map": "/static/js/main.5f631735.js.map",
     "453.5238f3c5.chunk.js.map": "/static/js/453.5238f3c5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.10030f6f.css",
-    "static/js/main.dab3cdf7.js"
+    "static/js/main.5f631735.js"
   ]
 }
